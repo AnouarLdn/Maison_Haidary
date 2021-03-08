@@ -63,7 +63,7 @@ export const projectsData = [
 export const contactData = {
   cta: 'Vous désirez en savoir plus? Super !',
   btn: 'Contactez-nous',
-  email: 'houseofhaidary@gmail.com',
+  email: 'weare@houseofhaidary.com',
 };
 
 // FOOTER DATA
