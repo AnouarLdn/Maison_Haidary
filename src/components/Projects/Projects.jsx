@@ -23,10 +23,10 @@ const Projects = () => {
   }, []);
 
   return (
-    <section id="projects">
+    <section id="projects" style = {{background:"linear-gradient(to bottom, yellow, pink)"}}>
       <Container>
         <div className="project-wrapper">
-          <Title title="Projects" />
+          <Title title="Créations" />
           {projects.map((project) => {
             const { title, info, info2, url, repo, img, id } = project;
 

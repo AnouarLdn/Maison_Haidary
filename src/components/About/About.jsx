@@ -7,7 +7,7 @@ import PortfolioContext from '../../context/context';
 
 const About = () => {
   const { about } = useContext(PortfolioContext);
-  const { img, paragraphOne, paragraphTwo, paragraphThree, resume } = about;
+  const { img, paragraphOne, paragraphTwo, paragraphThree, paragraphFour, paragraphFive, paragraphSix, paragraphSeven, resume } = about;
 
   const [isDesktop, setIsDesktop] = useState(false);
   const [isMobile, setIsMobile] = useState(false);
@@ -25,7 +25,7 @@ const About = () => {
   return (
     <section id="about">
       <Container>
-        <Title title="About Me" />
+        <Title title="Qui sommes-nous" />
         <Row className="about-wrapper">
           <Col md={6} sm={12}>
             <Fade bottom duration={1000} delay={600} distance="30px">
@@ -48,6 +48,21 @@ const About = () => {
                 <p className="about-wrapper__info-text">
                   {paragraphThree || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
                 </p>
+                <ul>
+                 Nos services:
+                </ul>
+                <li className="about-wrapper__info-text">
+                  {paragraphFour || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </li>
+                <li className="about-wrapper__info-text">
+                  {paragraphFive || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </li>
+                <li className="about-wrapper__info-text">
+                  {paragraphSix || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </li>
+                <li className="about-wrapper__info-text">
+                  {paragraphSeven || 'Lorem ipsum dolor sit, amet consectetur adipisicing elit.'}
+                </li>
                 {resume && (
                   <span className="d-flex mt-3">
                     <a

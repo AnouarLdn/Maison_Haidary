@@ -3,6 +3,7 @@ import { Container } from 'react-bootstrap';
 import Fade from 'react-reveal/Fade';
 import { Link } from 'react-scroll';
 import PortfolioContext from '../../context/context';
+import Typewriter from 'typewriter-effect';
 
 const Header = () => {
   const { hero } = useContext(PortfolioContext);
@@ -22,7 +23,7 @@ const Header = () => {
   }, []);
 
   return (
-    <section id="hero" className="jumbotron">
+    <section id="hero" className="jumbotron" style = {{background:"linear-gradient(to bottom, pink, yellow)"}}>
       <Container>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={500} distance="30px">
           <h1 className="hero-title">
@@ -30,13 +31,34 @@ const Header = () => {
             <span className="text-color-main">{name || 'Your Name'}</span>
             <br />
             {subtitle || "I'm the Unknown Developer."}
+            <Typewriter
+                onInit={(typewriter) => {
+                    typewriter
+                    .typeString("Création de site vitrine")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("Création de platforme E-Commerce")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString(`Création de site "Click and Collect"`)
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("Illustration")
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString(`Création d'Application Mobile`)
+                    .pauseFor(1000)
+                    .deleteAll()
+                    .typeString("Développement WEB")
+                    .start();
+                }}/>
           </h1>
         </Fade>
         <Fade left={isDesktop} bottom={isMobile} duration={1000} delay={1000} distance="30px">
           <p className="hero-cta">
             <span className="cta-btn cta-btn--hero">
               <Link to="about" smooth duration={1000}>
-                {cta || 'Know more'}
+                {cta || 'Découvrez nous'}
               </Link>
             </span>
           </p>
