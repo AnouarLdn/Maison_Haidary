@@ -34,7 +34,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'Anouar_Haidary_WebDeveloper.png',
     title: 'Anouar Haidary Portfolio',
-    info: `Ce site est le portfolio d'Anouar Haidary. En tant que développeur web en Javascript, ce site vous présente des projets avec différents degré de complexité.`,
+    info: `Ce site est le portfolio d'Anouar Haidary développeur web en Javascript. Ce site présente une serie projets ayant différents niveaux de complexité.`,
     info2: '',
     url: 'https://houseofhaidary.netlify.app/',
     repo: 'https://github.com/AnouarLdn/resume', // if no repo, the button will not show up
@@ -43,7 +43,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'jillpoole.png',
     title: 'Jill Poole Nature Art',
-    info: `Jill Poole est une artiste britannique qui nous a demandé de passer d'un site Web statique à une plateforme de commerce électronique. Nous avons également pu l'aider en photographiant et en stylisant ses œuvres pour sa toute nouvelle boutique en ligne.`,
+    info: `Jill Poole est une artiste britannique qui souhaitait passer d'un site web statique à une plateforme de commerce électronique. Nous avons accompagné Jill tout au long de ce projet.`,
     info2: '',
     url: 'https://www.jillpoole.com/',
     repo: '', // if no repo, the button will not show up
