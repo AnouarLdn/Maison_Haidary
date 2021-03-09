@@ -1,6 +1,7 @@
 #about {
   li {
       font-size: 15px;
+
   }
   ul {
       font-size: 25px;
@@ -32,6 +33,7 @@
       padding-bottom: 5rem;
     }
 
+
     &__image {
       display: flex;
       height: 100%;
@@ -53,7 +55,7 @@
       flex-direction: column;
 
       @include respond(phone) {
-        align-items: center;
+        align-items: justify;
       }
 
       &-text {
@@ -61,11 +63,11 @@
 
         @include respond(tab-port) {
           font-size: 1.5rem;
-          text-align: center;
+          text-align: justify;
         }
         @include respond(phone) {
           font-size: 1.6rem;
-          text-align: center;
+          text-align: justify;
         }
 
         &--important {
