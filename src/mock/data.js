@@ -24,7 +24,7 @@ export const aboutData = {
   paragraphFour: `Création de site internet vitrine`,
   paragraphFive: `Création de plateforme E-Commerce`,
   paragraphSix: `Création de site "Click and Collect"`,
-  paragraphSeven: `Création d'applications mobile`,
+  paragraphSeven: `Création d'application mobile`,
   // resume: 'https://www.resumemaker.online/es.php', // if no resume, the button will not show up
 };
 
