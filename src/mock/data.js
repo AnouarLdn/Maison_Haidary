@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne: `50 millisecondes soit 0.05 secondes est le lapse de temps alloué par visiteur pour se forger une première impression sur un site internet. Votre site web se doit de capter l’attention du visiteur dès son arrivée.`,
-  paragraphTwo: `House of Haidary est un duo franco-britannique, passionné de technologie, d'art et de design. Nous voulons que votre site web se démarque de la foule. Communiquer un message clair est élément clé dans votre stratégie digitale vers le succès.`,
+  paragraphTwo: `House of Haidary est un duo franco-britannique, passionné de technologie, d'art et de design. Nous voulons que votre site web se démarque de la foule. Communiquer un message clair est un élément clé dans votre stratégie digitale vers le succès.`,
   paragraphThree: `Connaître votre vision est essentiel afin que nous puissions créer un design gagnant adapté à vos besoins. Notre mission est de vous aider à développer votre présence digitale.`,
   paragraphFour: `Création de site internet vitrine`,
   paragraphFive: `Création de plateforme E-Commerce`,
