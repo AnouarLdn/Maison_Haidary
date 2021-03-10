@@ -43,7 +43,7 @@ export const projectsData = [
     id: nanoid(),
     img: 'jillpoole.png',
     title: 'Jill Poole Nature Art',
-    info: `Jill Poole est une artiste britannique qui souhaitait passer d'un site web statique à une plateforme de commerce électronique. Nous avons accompagné Jill tout au long de ce projet.`,
+    info: `Jill Poole est une artiste britannique qui souhaitait passer d'un site web vitrine à une plateforme E-Commerce. Nous avons accompagné Jill tout au long de ce projet.`,
     info2: '',
     url: 'https://www.jillpoole.com/',
     repo: '', // if no repo, the button will not show up
