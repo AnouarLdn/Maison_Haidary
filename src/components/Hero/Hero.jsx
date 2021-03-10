@@ -43,13 +43,10 @@ const Header = () => {
                     .typeString(`Création de site "Click and Collect"`)
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString("Illustration")
-                    .pauseFor(1000)
-                    .deleteAll()
                     .typeString(`Création d'Application Mobile`)
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString("Développement WEB")
+                    .typeString("Développement Web")
                     .start();
                 }}/>
           </h1>
