@@ -37,7 +37,7 @@ export const projectsData = [
     info: `Ce site est le portfolio d'Anouar Haidary développeur web en Javascript. Ce site présente une serie projets ayant différents niveaux de complexité.`,
     info2: '',
     url: 'https://resume.houseofhaidary.com/',
-    repo: 'https://github.com/AnouarLdn/resume', // if no repo, the button will not show up
+    repo: '', // if no repo, the button will not show up
   },
   {
     id: nanoid(),
