@@ -48,15 +48,15 @@ export const projectsData = [
     url: 'https://www.jillpoole.com/',
     repo: '', // if no repo, the button will not show up
   },
-  // {
-  //   id: nanoid(),
-  //   img: 'project.jpg',
-  //   title: '',
-  //   info: '',
-  //   info2: '',
-  //   url: '',
-  //   repo: 'https://github.com/cobidev/react-simplefolio', // if no repo, the button will not show up
-  // },
+  {
+    id: nanoid(),
+    img: 'Zegny_landingPage.png',
+    title: 'Zegny',
+    info: `Ceci est une page vitrine concernant le développement d'une application mobile.`,
+    info2: '',
+    url: 'https://zegny.houseofhaidary.com/',
+    repo: '', // if no repo, the button will not show up
+  },
 ];
 
 // CONTACT DATA
