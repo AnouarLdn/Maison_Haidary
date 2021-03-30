@@ -41,6 +41,9 @@ const Footer = () => {
       </a>
       <hr />
     </Container>
+        <a href="https://resume.houseofhaidary.com/mentions_legales" >
+        Mentions légales
+       </a>
     </footer>
   );
 };
