@@ -61,7 +61,7 @@ export const projectsData = [
 
 // CONTACT DATA
 export const contactData = {
-  cta: `N'hésitez pas à nous appeler au 06 66 66 14 36 .`,
+  cta: `N'hésitez pas à nous appeler au 06 66 64 14 36 .`,
   btn: 'Email',
   email: 'weare@houseofhaidary.com',
 };
