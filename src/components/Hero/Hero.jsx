@@ -37,7 +37,7 @@ const Header = () => {
                     .typeString("Création de site vitrine")
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString("Création de platforme E-Commerce")
+                    .typeString("Création de plateforme E-Commerce")
                     .pauseFor(1000)
                     .deleteAll()
                     .typeString(`Création de site "Click and Collect"`)
